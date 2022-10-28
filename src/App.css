@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./media/bg2.png");
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #faf9f9;
+  width: 95vw;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  opacity: 0.7;
+}
+
+#navbar-logo {
+  width: 18vw;
+  height: 14vw;
+}
+
+.navbar #page-title {
+  margin-left: 0.5rem;
+  font-size: 3rem;
+}
+
+.navbar .navbar-links {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+/*---------------------------------------------*/
+
+.random-apod-container * {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.home-body {
+  background-color: rgba(250, 249, 249, 0.7);
+  width: 95vw;
+  margin: 1rem auto 1rem auto;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header-and-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.date-form {
+  width: 10vw;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.date-form input {
+  padding: 0.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0.125rem;
+}
+
+.date-form input:hover {
+  background-color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.date-form button {
+  align-items: center;
+  width: 75%;
+  padding: 0.125rem;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0.175rem;
+}
+
+.date-form button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.date-form button:active {
+  background-color: rgb(255, 255, 255);
+}
+
+.random-apod-container button {
+  cursor: pointer;
+}
+
+.random-apod-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apod-date-tag {
+  font-size: 16px;
+}
+
+.random-apod-img {
+  max-height: calc(9 / 16 * 75vw);
+  max-width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+}
+
+.random-date-btn {
+  padding: 0.125rem;
+}
+
+/*---------------------------------------------*/
